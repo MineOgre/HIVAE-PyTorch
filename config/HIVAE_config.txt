@@ -1,0 +1,17 @@
+--data_source_path=./metabric
+--save_path=./HIVAEresults_metabric
+--csv_file_data=metabric_train_just_cov.csv
+--csv_file_label=metabric_train_just_cov.csv
+--csv_types_file=data_types_cov_.csv
+--type=real_cat
+--mask_file=missing_20.0_train_just_cov.csv
+--dataset_type=HeteroHealthMNIST
+--latent_dim=3
+--epochs=20
+--h_dims=0
+--y_dim=8
+--batch_size=101
+--csv_file_test_data=metabric_test_just_cov.csv
+--csv_file_test_label=metabric_test_just_cov.csv
+--mask_test_file=test/missing_20.0_test_just_cov.csv
+--learning_rate=0.001
